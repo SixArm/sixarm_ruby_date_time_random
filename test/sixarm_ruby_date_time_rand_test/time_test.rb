@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 require 'minitest/autorun'
-require 'simplecov'
-SimpleCov.start
+require 'coveralls'; Coveralls.wear!
+require 'simplecov'; SimpleCov.start
 require 'sixarm_ruby_date_time_rand'
 
 class TimeTest < Minitest::Test
