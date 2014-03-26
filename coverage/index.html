@@ -14,26 +14,26 @@
       <img src="./assets/0.8.0/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2014-03-26T00:34:24-07:00">2014-03-26T00:34:24-07:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2014-03-26T01:38:03-07:00">2014-03-26T01:38:03-07:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
         <div class="file_list_container" id="AllFiles">
   <h2>
     <span class="group_name">All Files</span>
-    (<span class="covered_percent"><span class="red">52.0%</span></span>
+    (<span class="covered_percent"><span class="red">57.14%</span></span>
      covered at
      <span class="covered_strength">
        <span class="red">
-         0.56
+         0.62
        </span>
     </span> hits/line)
   </h2>
   <a name="AllFiles"></a>
   <div>
     <b>7</b> files in total.
-    <b>50</b> relevant lines. 
-    <span class="green"><b>26</b> lines covered</span> and
+    <b>56</b> relevant lines. 
+    <span class="green"><b>32</b> lines covered</span> and
     <span class="red"><b>24</b> lines missed </span>
   </div>
   <table class="file_list">
@@ -92,32 +92,32 @@
       
       <tr>
         <td class="strong"><a href="#91732dea75cdb1ecc98e4b1394330fc207a7ae95" class="src_link" title="test/sixarm_ruby_date_time_rand_test/date_test.rb">test/sixarm_ruby_date_time_rand_test/date_test.rb</a></td>
-        <td class="red strong">41.67 %</td>
-        <td>20</td>
-        <td>12</td>
-        <td>5</td>
+        <td class="red strong">50.0 %</td>
+        <td>22</td>
+        <td>14</td>
         <td>7</td>
-        <td>0.4</td>
+        <td>7</td>
+        <td>0.5</td>
       </tr>
       
       <tr>
         <td class="strong"><a href="#b45227bc5a760a1bdb9aeeb6276f778ff8ea36e7" class="src_link" title="test/sixarm_ruby_date_time_rand_test/date_time_test.rb">test/sixarm_ruby_date_time_rand_test/date_time_test.rb</a></td>
-        <td class="red strong">41.67 %</td>
-        <td>20</td>
-        <td>12</td>
-        <td>5</td>
+        <td class="red strong">50.0 %</td>
+        <td>22</td>
+        <td>14</td>
         <td>7</td>
-        <td>0.4</td>
+        <td>7</td>
+        <td>0.5</td>
       </tr>
       
       <tr>
         <td class="strong"><a href="#a35c4e1e9ba2903607b2773600f3268dc82b53d0" class="src_link" title="test/sixarm_ruby_date_time_rand_test/time_test.rb">test/sixarm_ruby_date_time_rand_test/time_test.rb</a></td>
-        <td class="red strong">41.67 %</td>
-        <td>21</td>
-        <td>12</td>
-        <td>5</td>
+        <td class="red strong">50.0 %</td>
+        <td>23</td>
+        <td>14</td>
         <td>7</td>
-        <td>0.4</td>
+        <td>7</td>
+        <td>0.5</td>
       </tr>
       
     </tbody>
@@ -859,10 +859,10 @@
         <div class="source_table" id="91732dea75cdb1ecc98e4b1394330fc207a7ae95">
   <div class="header">
     <h3>test/sixarm_ruby_date_time_rand_test/date_test.rb</h3>
-    <h4><span class="red">41.67 %</span> covered</h4>
+    <h4><span class="red">50.0 %</span> covered</h4>
     <div>
-      <b>12</b> relevant lines. 
-      <span class="green"><b>5</b> lines covered</span> and
+      <b>14</b> relevant lines. 
+      <span class="green"><b>7</b> lines covered</span> and
       <span class="red"><b>7</b> lines missed.</span>
     </div>
   </div>
@@ -885,19 +885,19 @@
         <li class="covered" data-hits="1" data-linenumber="3">
           <span class="hits">1</span>
           
-          <code class="ruby">require &#39;sixarm_ruby_date_time_rand&#39;</code>
+          <code class="ruby">require &#39;simplecov&#39;</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="4">
+        <li class="covered" data-hits="1" data-linenumber="4">
+          <span class="hits">1</span>
           
-          
-          <code class="ruby"></code>
+          <code class="ruby">SimpleCov.start</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="5">
           <span class="hits">1</span>
           
-          <code class="ruby">class DateTest &lt; Minitest::Test</code>
+          <code class="ruby">require &#39;sixarm_ruby_date_time_rand&#39;</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="6">
@@ -909,82 +909,94 @@
         <li class="covered" data-hits="1" data-linenumber="7">
           <span class="hits">1</span>
           
-          <code class="ruby">  def test_rand</code>
+          <code class="ruby">class DateTest &lt; Minitest::Test</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="8">
-          
-          
-          <code class="ruby">    rand = Date.rand</code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="9">
-          
-          
-          <code class="ruby">    assert_kind_of(Date, rand)</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="10">
-          
-          
-          <code class="ruby">  end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="11">
-          
-          
-          <code class="ruby"> </code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="12">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  def test_rand_with_range</code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="13">
-          
-          
-          <code class="ruby">    today = Date.today</code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="14">
-          
-          
-          <code class="ruby">    range = (today - 1000)..(today + 1000)</code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="15">
-          
-          
-          <code class="ruby">    rand = Date.rand(range)</code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="16">
-          
-          
-          <code class="ruby">    assert_kind_of(Date, rand)</code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="17">
-          
-          
-          <code class="ruby">    assert(range.begin &lt;= rand &amp;&amp; rand &lt;= range.end)</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="18">
-          
-          
-          <code class="ruby">  end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="19">
+        <li class="never" data-hits="" data-linenumber="8">
           
           
           <code class="ruby"></code>
         </li>
       
+        <li class="covered" data-hits="1" data-linenumber="9">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def test_rand</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="10">
+          
+          
+          <code class="ruby">    rand = Date.rand</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="11">
+          
+          
+          <code class="ruby">    assert_kind_of(Date, rand)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="12">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="13">
+          
+          
+          <code class="ruby"> </code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="14">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def test_rand_with_range</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="15">
+          
+          
+          <code class="ruby">    today = Date.today</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="16">
+          
+          
+          <code class="ruby">    range = (today - 1000)..(today + 1000)</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="17">
+          
+          
+          <code class="ruby">    rand = Date.rand(range)</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="18">
+          
+          
+          <code class="ruby">    assert_kind_of(Date, rand)</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="19">
+          
+          
+          <code class="ruby">    assert(range.begin &lt;= rand &amp;&amp; rand &lt;= range.end)</code>
+        </li>
+      
         <li class="never" data-hits="" data-linenumber="20">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="21">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="22">
           
           
           <code class="ruby">end</code>
@@ -997,10 +1009,10 @@
         <div class="source_table" id="b45227bc5a760a1bdb9aeeb6276f778ff8ea36e7">
   <div class="header">
     <h3>test/sixarm_ruby_date_time_rand_test/date_time_test.rb</h3>
-    <h4><span class="red">41.67 %</span> covered</h4>
+    <h4><span class="red">50.0 %</span> covered</h4>
     <div>
-      <b>12</b> relevant lines. 
-      <span class="green"><b>5</b> lines covered</span> and
+      <b>14</b> relevant lines. 
+      <span class="green"><b>7</b> lines covered</span> and
       <span class="red"><b>7</b> lines missed.</span>
     </div>
   </div>
@@ -1023,19 +1035,19 @@
         <li class="covered" data-hits="1" data-linenumber="3">
           <span class="hits">1</span>
           
-          <code class="ruby">require &#39;sixarm_ruby_date_time_rand&#39;</code>
+          <code class="ruby">require &#39;simplecov&#39;</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="4">
+        <li class="covered" data-hits="1" data-linenumber="4">
+          <span class="hits">1</span>
           
-          
-          <code class="ruby"></code>
+          <code class="ruby">SimpleCov.start</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="5">
           <span class="hits">1</span>
           
-          <code class="ruby">class DateTimeTest &lt; Minitest::Test</code>
+          <code class="ruby">require &#39;sixarm_ruby_date_time_rand&#39;</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="6">
@@ -1047,82 +1059,94 @@
         <li class="covered" data-hits="1" data-linenumber="7">
           <span class="hits">1</span>
           
+          <code class="ruby">class DateTimeTest &lt; Minitest::Test</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="8">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="9">
+          <span class="hits">1</span>
+          
           <code class="ruby">  def test_rand</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="8">
+        <li class="missed" data-hits="0" data-linenumber="10">
           
           
           <code class="ruby">    rand = DateTime.rand</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="9">
+        <li class="missed" data-hits="0" data-linenumber="11">
           
           
           <code class="ruby">    assert_kind_of(DateTime, rand)</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="10">
+        <li class="never" data-hits="" data-linenumber="12">
           
           
           <code class="ruby">  end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="11">
+        <li class="never" data-hits="" data-linenumber="13">
           
           
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="12">
+        <li class="covered" data-hits="1" data-linenumber="14">
           <span class="hits">1</span>
           
           <code class="ruby">  def test_rand_with_range</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="13">
+        <li class="missed" data-hits="0" data-linenumber="15">
           
           
           <code class="ruby">    now = DateTime.now</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="14">
+        <li class="missed" data-hits="0" data-linenumber="16">
           
           
           <code class="ruby">    range = (now - 10)..(now + 10)</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="15">
+        <li class="missed" data-hits="0" data-linenumber="17">
           
           
           <code class="ruby">    rand = DateTime.rand(range)</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="16">
+        <li class="missed" data-hits="0" data-linenumber="18">
           
           
           <code class="ruby">    assert_kind_of(DateTime, rand)</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="17">
+        <li class="missed" data-hits="0" data-linenumber="19">
           
           
           <code class="ruby">    assert(range.begin &lt;= rand &amp;&amp; rand &lt;= range.end)</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="18">
+        <li class="never" data-hits="" data-linenumber="20">
           
           
           <code class="ruby">  end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="19">
+        <li class="never" data-hits="" data-linenumber="21">
           
           
           <code class="ruby"></code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="20">
+        <li class="never" data-hits="" data-linenumber="22">
           
           
           <code class="ruby">end</code>
@@ -1135,10 +1159,10 @@
         <div class="source_table" id="a35c4e1e9ba2903607b2773600f3268dc82b53d0">
   <div class="header">
     <h3>test/sixarm_ruby_date_time_rand_test/time_test.rb</h3>
-    <h4><span class="red">41.67 %</span> covered</h4>
+    <h4><span class="red">50.0 %</span> covered</h4>
     <div>
-      <b>12</b> relevant lines. 
-      <span class="green"><b>5</b> lines covered</span> and
+      <b>14</b> relevant lines. 
+      <span class="green"><b>7</b> lines covered</span> and
       <span class="red"><b>7</b> lines missed.</span>
     </div>
   </div>
@@ -1161,19 +1185,19 @@
         <li class="covered" data-hits="1" data-linenumber="3">
           <span class="hits">1</span>
           
-          <code class="ruby">require &#39;sixarm_ruby_date_time_rand&#39;</code>
+          <code class="ruby">require &#39;simplecov&#39;</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="4">
+        <li class="covered" data-hits="1" data-linenumber="4">
+          <span class="hits">1</span>
           
-          
-          <code class="ruby"></code>
+          <code class="ruby">SimpleCov.start</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="5">
           <span class="hits">1</span>
           
-          <code class="ruby">class TimeTest &lt; Minitest::Test</code>
+          <code class="ruby">require &#39;sixarm_ruby_date_time_rand&#39;</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="6">
@@ -1185,88 +1209,100 @@
         <li class="covered" data-hits="1" data-linenumber="7">
           <span class="hits">1</span>
           
+          <code class="ruby">class TimeTest &lt; Minitest::Test</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="8">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="9">
+          <span class="hits">1</span>
+          
           <code class="ruby">  def test_rand</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="8">
+        <li class="missed" data-hits="0" data-linenumber="10">
           
           
           <code class="ruby">    rand = Time.rand</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="9">
+        <li class="missed" data-hits="0" data-linenumber="11">
           
           
           <code class="ruby">    assert_kind_of(Time, rand)</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="10">
+        <li class="never" data-hits="" data-linenumber="12">
           
           
           <code class="ruby">  end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="11">
+        <li class="never" data-hits="" data-linenumber="13">
           
           
           <code class="ruby">  </code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="12">
+        <li class="covered" data-hits="1" data-linenumber="14">
           <span class="hits">1</span>
           
           <code class="ruby">  def test_rand_with_range</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="13">
+        <li class="missed" data-hits="0" data-linenumber="15">
           
           
           <code class="ruby">    now = Time.now</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="14">
+        <li class="missed" data-hits="0" data-linenumber="16">
           
           
           <code class="ruby">    range = (now - 1000)..(now + 1000)</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="15">
+        <li class="missed" data-hits="0" data-linenumber="17">
           
           
           <code class="ruby">    rand = Time.rand(range)</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="16">
+        <li class="missed" data-hits="0" data-linenumber="18">
           
           
           <code class="ruby">    assert_kind_of(Time, rand)</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="17">
+        <li class="missed" data-hits="0" data-linenumber="19">
           
           
           <code class="ruby">    assert(range.begin &lt;= rand &amp;&amp; rand &lt;= range.end)</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="18">
+        <li class="never" data-hits="" data-linenumber="20">
           
           
           <code class="ruby">  end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="19">
+        <li class="never" data-hits="" data-linenumber="21">
           
           
           <code class="ruby"> </code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="20">
+        <li class="never" data-hits="" data-linenumber="22">
           
           
           <code class="ruby">end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="21">
+        <li class="never" data-hits="" data-linenumber="23">
           
           
           <code class="ruby"></code>

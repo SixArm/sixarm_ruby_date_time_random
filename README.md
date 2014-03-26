@@ -2,7 +2,6 @@
 
 [![Code Climate](https://codeclimate.com/github/SixArm/sixarm_ruby_date_time_rand.png)](https://codeclimate.com/github/SixArm/sixarm_ruby_date_time_rand)
 [![Build Status](https://travis-ci.org/SixArm/sixarm_ruby_date_time_rand.png)](https://travis-ci.org/SixArm/sixarm_ruby_date_time_rand)
-[![Coverage Status](https://coveralls.io/repos/SixArm/sixarm_ruby_date_time_rand/badge.png?branch=master)](https://coveralls.io/r/SixArm/sixarm_ruby_date_time_rand?branch=master)
 
 * Doc: <http://sixarm.com/sixarm_ruby_date_time_rand/doc>
 * Gem: <http://rubygems.org/gems/sixarm_ruby_date_time_rand>
