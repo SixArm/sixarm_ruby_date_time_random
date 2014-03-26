@@ -8,11 +8,6 @@ GEM
       multi_json (~> 1.0)
       simplecov-html (~> 0.7.1)
     simplecov-html (0.7.1)
-    sixarm_ruby_rexml (2.1.0)
-    sixarm_ruby_xml_load (2.1.0)
-      sixarm_ruby_rexml (>= 2.1.0)
-    sixarm_ruby_xml_strip (2.1.0)
-      sixarm_ruby_rexml (>= 2.1.0)
 
 PLATFORMS
   ruby
@@ -21,6 +16,3 @@ DEPENDENCIES
   minitest (~> 4.7)
   rake (~> 10.1)
   simplecov (~> 0.7)
-  sixarm_ruby_rexml (~> 2.1.0)
-  sixarm_ruby_xml_load (~> 2.1.0)
-  sixarm_ruby_xml_strip (~> 2.1.0)
