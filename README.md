@@ -49,7 +49,7 @@ To enable high security for all our gems:
 
 To install with high security:
 
-    gem install sixarm_ruby_date_time_rand --test --trust-policy HighSecurity
+    gem install sixarm_ruby_date_time_rand --trust-policy HighSecurity
 
 
 ## Changes
