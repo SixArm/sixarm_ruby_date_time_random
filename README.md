@@ -1,4 +1,4 @@
-# SixArm.com » Ruby » <br> Date and Time #rand methods
+# Ruby » <br> Date and Time #rand methods
 
 [![Code Climate](https://codeclimate.com/github/SixArm/sixarm_ruby_date_time_rand.png)](https://codeclimate.com/github/SixArm/sixarm_ruby_date_time_rand)
 [![Build Status](https://travis-ci.org/SixArm/sixarm_ruby_date_time_rand.png)](https://travis-ci.org/SixArm/sixarm_ruby_date_time_rand)
