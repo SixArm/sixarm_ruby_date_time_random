@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-require 'time'
+require "time"
 
 # Time extensions
 
