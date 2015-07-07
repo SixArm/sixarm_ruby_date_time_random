@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
 
-  SOURCES          = ['date','date_time','time']
+  SOURCES          = ["date",'date_time','time']
   TESTERS          = []
 
   s.name           = "sixarm_ruby_date_time_rand"
@@ -14,11 +14,11 @@ Gem::Specification.new do |s|
   s.homepage       = "http://sixarm.com/"
   s.licenses       = ["BSD", "GPL", "MIT", "PAL", "Various"]
 
-  s.signing_key    = '/home/sixarm/keys/certs/sixarm-rsa-4096-x509-20145314-private.pem'
-  s.cert_chain     = ['/home/sixarm/keys/certs/sixarm-rsa-4096-x509-20150314-public.pem']
+  s.signing_key    = "/home/sixarm/keys/certs/sixarm-rsa-4096-x509-20145314-private.pem"
+  s.cert_chain     = ["/home/sixarm/keys/certs/sixarm-rsa-4096-x509-20150314-public.pem"]
 
   s.platform       = Gem::Platform::RUBY
-  s.require_path   = 'lib'
+  s.require_path   = "lib"
   s.has_rdoc       = true
 
   top_files        = [".gemtest", "CONTRIBUTING.md", "Rakefile", "README.md", "VERSION"]
