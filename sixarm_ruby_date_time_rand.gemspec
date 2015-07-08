@@ -2,30 +2,40 @@
 
 Gem::Specification.new do |s|
 
-  SOURCES          = ["date",'date_time','time']
-  TESTERS          = []
-
   s.name           = "sixarm_ruby_date_time_rand"
   s.summary        = "SixArm.com » Ruby » Date and Time #rand methods"
   s.description    = "Adds extensions for DateTime#rand, Date#rand, Time#rand"
-  s.version        = "2.0.0"
+  s.version        = "2.0.1"
+
   s.author         = "SixArm"
   s.email          = "sixarm@sixarm.com"
   s.homepage       = "http://sixarm.com/"
   s.licenses       = ["BSD", "GPL", "MIT", "PAL", "Various"]
 
-  s.signing_key    = "/home/sixarm/keys/certs/sixarm-rsa-4096-x509-20145314-private.pem"
-  s.cert_chain     = ["/home/sixarm/keys/certs/sixarm-rsa-4096-x509-20150314-public.pem"]
+  s.signing_key    = "/opt/keys/sixarm/sixarm-rsa-4096-x509-20150314-private.pem"
+  s.cert_chain     = ["/opt/keys/sixarm/sixarm-rsa-4096-x509-20150314-public.pem"]
 
   s.platform       = Gem::Platform::RUBY
   s.require_path   = "lib"
   s.has_rdoc       = true
 
-  top_files        = [".gemtest", "CONTRIBUTING.md", "Rakefile", "README.md", "VERSION"]
-  lib_files        = ["lib/#{s.name}.rb"] + SOURCES.map{|x| "lib/#{s.name}/#{x}.rb"}
-  test_files       = ["test/#{s.name}_test.rb"] + SOURCES.map{|x| "test/#{s.name}_test/#{x}_test.rb"} + TESTERS.map{|x| "test/#{s.name}_test/#{x}"}
+  s.files = [
+    ".gemtest",
+    "CONTRIBUTING.md",
+    "Rakefile",
+    "README.md",
+    "VERSION",
+    "lib/sixarm_ruby_date_time_rand.rb",
+    "lib/sixarm_ruby_date_time_rand/date.rb",
+    "lib/sixarm_ruby_date_time_rand/date_time.rb",
+    "lib/sixarm_ruby_date_time_rand/time.rb",
+  ]
 
-  s.files          = top_files + lib_files + test_files
-  s.test_files     = test_files
+  s.test_files = [
+    "test/sixarm_ruby_date_time_rand_test.rb",
+    "test/sixarm_ruby_date_time_rand_test/date_test.rb",
+    "test/sixarm_ruby_date_time_rand_test/date_time_test.rb",
+    "test/sixarm_ruby_date_time_rand_test/time_test.rb",
+  ]
 
 end
