@@ -3,3 +3,5 @@
 bin
 vendor
 Gemfile.lock
+/coverage/
+/coverage.data
