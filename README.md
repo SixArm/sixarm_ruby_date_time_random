@@ -1,4 +1,4 @@
-# Ruby » <br> Date and Time #rand methods
+SixArm.com → Ruby → <br> Date and Time #rand methods
 
 <!--HEADER-OPEN-->
 
