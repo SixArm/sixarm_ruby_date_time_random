@@ -2,6 +2,6 @@
 .coveralls.yml
 bin
 //vendor//
-Gemfile.lock
+/Gemfile.lock
 /coverage/
 /coverage.data
