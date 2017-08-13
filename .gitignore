@@ -5,3 +5,4 @@ bin
 /Gemfile.lock
 /coverage/
 /coverage.data
+.DS_Store

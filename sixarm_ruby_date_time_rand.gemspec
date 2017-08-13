@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
   s.name           = "sixarm_ruby_date_time_rand"
   s.summary        = "SixArm.com → Ruby → Date and Time #rand methods"
   s.description    = "Adds extensions for DateTime#rand, Date#rand, Time#rand"
-  s.version        = "2.0.1"
+  s.version        = "2.0.2"
 
   s.author         = "SixArm"
   s.email          = "sixarm@sixarm.com"
