@@ -8,26 +8,26 @@ class Time
 
   # @return [Time] a random time
   #
-  # This calls `DateTime.rand`.
+  # This calls `DateTime.random`.
   #
   # The default range is +/- 10000 days from now,
-  # which is the same as `Date.rand` and `DateTime.rand`.
+  # which is the same as `Date.random` and `DateTime.random`.
   #
   # @example
   #
-  #   Time.rand
+  #   Time.random
   #   => "2014-12-31 12:59:59Z" 
   #
   # @example with a range
   #
   #   now = Time.now
   #   range = (now - 10000)..(now + 10000)
-  #   Time.rand(range)
+  #   Time.random(range)
   #
   # @param [Range<Time..Time>] A range of potential times, or nil for the default range.
   #
-  def self.rand(range = nil)
-    DateTime.rand(range).to_time
+  def self.random(range = nil)
+    DateTime.random(range).to_time
   end
 
 end

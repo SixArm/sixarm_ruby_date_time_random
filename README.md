@@ -1,17 +1,16 @@
-# SixArm.com → Ruby → <br> Date and Time #rand methods
+# SixArm.com → Ruby → <br> Date and Time #random methods
 
 <!--header-open-->
 
-[![Gem Version](https://badge.fury.io/rb/sixarm_ruby_date_time_rand.svg)](http://badge.fury.io/rb/sixarm_ruby_date_time_rand)
-[![Build Status](https://travis-ci.org/SixArm/sixarm_ruby_date_time_rand.png)](https://travis-ci.org/SixArm/sixarm_ruby_date_time_rand)
-[![Code Climate Maintainability](https://api.codeclimate.com/v1/badges/e1d66263dfc8fc1303a8/maintainability)](https://codeclimate.com/github/SixArm/sixarm_ruby_date_time_rand/maintainability)
-[![Coverage Status](https://coveralls.io/repos/SixArm/sixarm_ruby_date_time_rand/badge.svg?branch=master&service=github)](https://coveralls.io/github/SixArm/sixarm_ruby_date_time_rand?branch=master)
+[![Gem Version](https://badge.fury.io/rb/sixarm_ruby_date_time_random.svg)](http://badge.fury.io/rb/sixarm_ruby_date_time_random)
+[![Build Status](https://travis-ci.org/SixArm/sixarm_ruby_date_time_random.png)](https://travis-ci.org/SixArm/sixarm_ruby_date_time_random)
+[![Code Climate Maintainability](https://api.codeclimate.com/v1/badges/e1d66263dfc8fc1303a8/maintainability)](https://codeclimate.com/github/SixArm/sixarm_ruby_date_time_random/maintainability)
 
-* Git: <https://github.com/sixarm/sixarm_ruby_date_time_rand>
-* Doc: <http://sixarm.com/sixarm_ruby_date_time_rand/doc>
-* Gem: <https://rubygems.org/gems/sixarm_ruby_date_time_rand>
+* Git: <https://github.com/sixarm/sixarm_ruby_date_time_random>
+* Doc: <http://sixarm.com/sixarm_ruby_date_time_random/doc>
+* Gem: <https://rubygems.org/gems/sixarm_ruby_date_time_random>
 * Contact: Joel Parker Henderson, <joel@sixarm.com>
-* Project: [Changes](CHANGES.md), [License](LICENSE.md), [Contributing](CONTRIBUTING.md).
+* Project: [changes](CHANGES.md), [license](LICENSE.md), [contributing](CONTRIBUTING.md).
 
 <!--header-shut-->
 
@@ -20,18 +19,18 @@
 
 Generate random dates and times:
 
-    DateTime.rand
-    Date.rand
-    Time.rand
+    DateTime.random
+    Date.random
+    Time.random
 
 The random range is +/- 10000 days.
 
-For docs go to <http://sixarm.com/sixarm_ruby_date_time_rand/doc>
+For docs go to <http://sixarm.com/sixarm_ruby_date_time_random/doc>
 
 Want to help? We're happy to get pull requests.
 
 
-<!--install-opent-->
+<!--install-open-->
 
 ## Install
 
@@ -39,16 +38,16 @@ Want to help? We're happy to get pull requests.
 
 Run this command in your shell or terminal:
 
-    gem install sixarm_ruby_date_time_rand
+    gem install sixarm_ruby_date_time_random
 
 Or add this to your Gemfile:
 
-    gem 'sixarm_ruby_date_time_rand'
+    gem 'sixarm_ruby_date_time_random'
 
 ### Require
 
 To require the gem in your code:
 
-    require 'sixarm_ruby_date_time_rand'
+    require 'sixarm_ruby_date_time_random'
 
 <!--install-shut-->

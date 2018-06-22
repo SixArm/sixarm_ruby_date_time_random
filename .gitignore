@@ -1,8 +1,8 @@
-.bundle
-.coveralls.yml
-bin
+/.bundle
+/.yardoc
 /vendor/
 /Gemfile.lock
 /coverage/
 /coverage.data
+bin
 .DS_Store

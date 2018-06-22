@@ -8,26 +8,26 @@ class Date
 
   # @return [Date] a random daate
   #
-  # This calls `DateTime#rand`.
+  # This calls `DateTime#random`.
   #
   # The default range is +/- 10000 days from now.
-  # which is the same as `DateTime.rand` and `Time.rand`.
+  # which is the same as `DateTime.random` and `Time.random`.
   #
   # @example
   #
-  #   Date.rand
+  #   Date.random
   #   => "2014-12-31" 
   #
   # @example with a range
   #
   #   today = Date.today
   #   range = (today - 10000)..(today + 10000)
-  #   Date.rand(range)
+  #   Date.random(range)
   #
   # @param [Range<Date..Dateb>] A range of potential dates, or nil for the default.
   #
-  def self.rand(range = nil)
-    DateTime.rand(range).to_date
+  def self.random(range = nil)
+    DateTime.random(range).to_date
   end
 
 end
