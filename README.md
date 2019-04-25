@@ -4,9 +4,9 @@
 
 [![Gem Version](https://badge.fury.io/rb/sixarm_ruby_date_time_random.svg)](http://badge.fury.io/rb/sixarm_ruby_date_time_random)
 [![Build Status](https://travis-ci.org/SixArm/sixarm_ruby_date_time_random.png)](https://travis-ci.org/SixArm/sixarm_ruby_date_time_random)
-[![Code Climate Maintainability](https://api.codeclimate.com/v1/badges/e1d66263dfc8fc1303a8/maintainability)](https://codeclimate.com/github/SixArm/sixarm_ruby_date_time_random/maintainability)
+[![Code Climate](https://api.codeclimate.com/v1/badges/e1d66263dfc8fc1303a8/maintainability)](https://codeclimate.com/github/SixArm/sixarm_ruby_date_time_random/maintainability)
 
-* Git: <https://github.com/sixarm/sixarm_ruby_date_time_random>
+* Git: <https://github.com/SixArm/sixarm_ruby_date_time_random>
 * Doc: <http://sixarm.com/sixarm_ruby_date_time_random/doc>
 * Gem: <https://rubygems.org/gems/sixarm_ruby_date_time_random>
 * Contact: Joel Parker Henderson, <joel@sixarm.com>
@@ -36,11 +36,13 @@ Want to help? We're happy to get pull requests.
 
 ### Gem
 
-Run this command in your shell or terminal:
+To install this gem in your shell or terminal:
 
     gem install sixarm_ruby_date_time_random
 
-Or add this to your Gemfile:
+### Gemfile
+
+To add this gem to your Gemfile:
 
     gem 'sixarm_ruby_date_time_random'
 
